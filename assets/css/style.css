@@ -1,3 +1,30 @@
+* {
+  margin: auto;
+  padding: auto;
+}
 
+@font-face {
+  font-family: Roboto;
+  src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+#header {
+  background-color: beige;
+  padding: 20px 8px;
+}
+#header nav {
+  /*display: flex;*/
+}
+#header nav ul {
+  list-style: none;
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+}
+#header nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-family: Roboto;
+  font-weight: bold;
+}
 
 /*# sourceMappingURL=style.css.map */
