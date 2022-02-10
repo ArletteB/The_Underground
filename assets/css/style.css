@@ -23,8 +23,7 @@ body {
 }
 #header nav ul li a {
   text-decoration: none;
-  color: white;
-  font-weight: bold;
+  color: black;
 }
 
 #section1 {
@@ -41,6 +40,7 @@ body {
 #section1 .text h1 {
   font-weight: bold;
   margin-bottom: 2rem;
+  font-size: 2.5rem;
 }
 #section1 .button {
   margin-top: 3rem;
@@ -53,6 +53,53 @@ body {
   padding: 10px 25px;
   border-radius: 27px;
   margin-top: 2rem;
+  font-weight: bold;
+}
+
+#section2 {
+  text-align: center;
+}
+#section2 .texte {
+  text-align: center;
+}
+#section2 .texte h2 {
+  font-weight: bold;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+}
+#section2 .texte p {
+  width: 50%;
+}
+#section2 .button {
+  margin-top: 3rem;
+}
+#section2 .button .btn2 {
+  color: white;
+  background-color: black;
+  border: 3px solid black;
+  text-decoration: none;
+  padding: 10px 25px;
+  border-radius: 27px;
+  margin-top: 2rem;
+  font-weight: bold;
+}
+
+.section3 {
+  background-image: url(../img/banner-2.jpg);
+  padding: 270px 0px;
+  background-position: center;
+  margin-top: 3rem;
+  display: flex;
+  background-size: cover;
+}
+
+#footer {
+  background-color: slategrey;
+  padding: 20px 8px;
+}
+#footer .footer {
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
